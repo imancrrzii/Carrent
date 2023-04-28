@@ -1,0 +1,10 @@
+<script src="<?php echo base_url('assets/assets_stisla') ?>/modules/jquery.min.js"></script>
+<script src="<?php echo base_url('assets/assets_stisla') ?>/modules/popper.js"></script>
+<script src="<?php echo base_url('assets/assets_stisla') ?>/modules/tooltip.js"></script>
+<script src="<?php echo base_url('assets/assets_stisla') ?>/modules/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php echo base_url('assets/assets_stisla') ?>/modules/nicescroll/jquery.nicescroll.min.js"></script>
+<script src="<?php echo base_url('assets/assets_stisla') ?>/modules/moment.min.js"></script>
+<script src="<?php echo base_url('assets/assets_stisla') ?>/js/stisla.js"></script>
+<script src="<?php echo base_url('assets/assets_stisla') ?>/js/page/index-0.js"></script>
+<script src="<?php echo base_url('assets/assets_stisla') ?>/js/scripts.js"></script>
+<script src="<?php echo base_url('assets/assets_stisla') ?>/js/custom.js"></script>
