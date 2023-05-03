@@ -3,10 +3,11 @@
 Project Akhir Pemrogramman Web II 
 
 ## Instalasi
+git clone https://github.com/imancrrzii/Carrent.git
 
-Ekstrak Zip project_akhir
+rename folder Carrent-Main menjadi project_akhir
 
-Pindah ke folder 
+Pindahkan ke folder 
 
     cd xampp/htdocs
 
@@ -22,7 +23,7 @@ Use Database
 
     use project_akhir
 
-Copy isi database 
+Copy isi database di folder database
 
     cp isi project_akhir.sql
 
