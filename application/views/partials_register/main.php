@@ -60,8 +60,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <button type="submit" class="btn btn-primary mt-2"><i class="fas fa-save me-2"></i>Simpan
-                                Pesanan</button>
+                            <button type="submit" class="btn btn-primary mt-2"><i class="fas fa-save me-2"></i>Mulai
+                                Daftar</button>
                         </form>
                     </div>
                 </div>

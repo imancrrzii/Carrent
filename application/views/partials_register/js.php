@@ -28,24 +28,24 @@ $(window).on('load', function() {
 </script>
 <?php endif; ?>
 <script>
-if (document.getElementById("state1")) {
-    const countUp = new CountUp("state1", document.getElementById("state1").getAttribute("countTo"));
+if ($("#state1").length) {
+    const countUp = new CountUp("state1", $("#state1").attr("countTo"));
     if (!countUp.error) {
         countUp.start();
     } else {
         console.error(countUp.error);
     }
 }
-if (document.getElementById("state2")) {
-    const countUp1 = new CountUp("state2", document.getElementById("state2").getAttribute("countTo"));
+if ($("#state2").length) {
+    const countUp1 = new CountUp("state2", $("#state2").attr("countTo"));
     if (!countUp1.error) {
         countUp1.start();
     } else {
         console.error(countUp1.error);
     }
 }
-if (document.getElementById("state3")) {
-    const countUp2 = new CountUp("state3", document.getElementById("state3").getAttribute("countTo"));
+if ($("#state3").length) {
+    const countUp2 = new CountUp("state3", $("#state3").attr("countTo"));
     if (!countUp2.error) {
         countUp2.start();
     } else {
@@ -53,11 +53,11 @@ if (document.getElementById("state3")) {
     };
 }
 
-if (document.querySelector('.datepicker-1')) {
-    flatpickr('.datepicker-1', {});
+if ($('.datepicker-1').length) {
+    $('.datepicker-1').flatpickr({}); // flatpickr
 }
 
-if (document.querySelector('.datepicker-2')) {
-    flatpickr('.datepicker-2', {});
+if ($('.datepicker-2').length) {
+    $('.datepicker-2').flatpickr({}); // flatpickr
 }
 </script>
